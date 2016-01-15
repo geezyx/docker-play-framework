@@ -10,4 +10,4 @@ EXPOSE 9000 8888
 RUN mkdir /app
 WORKDIR /app
 
-CMD ["activator", "run"]
+CMD ["activator", "~run"]
